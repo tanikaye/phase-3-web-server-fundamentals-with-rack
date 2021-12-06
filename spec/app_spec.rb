@@ -3,6 +3,6 @@ describe "App" do
     # Make a GET request to the server
     get "/"
     # Inspect the body of the response
-    expect(last_response.body).to include("<h2>Hello <em>World</em>!</h2>")
+    expect(last_response.body).to include("<h2>yoohoo <em>World</em>!</h2>")
   end
 end
